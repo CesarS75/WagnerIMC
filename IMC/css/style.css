@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@300&display=swap');
+
+/*Definir variáveis globais do CSS */
+
+:root {
+    --cor-fundo: rgb(29, 137, 183);
+    --cor-destaque: rgb(10 50 45);
+    --cor-main: rgb(26 200 235);
+    --cor-fonte: rgb(240, 240, 240);
+}
+
+/*Resetar as configurações do navegador */
+
+* {
+    outline: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: var(--cor-fundo);
+    font-family: 'Oswald', 'sans-serif';
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 20px auto;
+    background: var(--cor-main);
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-main)
+}
+
+header h1 {
+    color: var(--cor-fonte);
+    width: 100%;
+    text-align: center;
+}
+
+.dados {
+    width: 80%;
+    margin-left: 30px;
+}
+
+form input, form label {
+    display: block;
+    width: 70.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+form input {
+    font-size: 26px;
+    padding: 0 20px;
+    height: 50px;
+}
+
+footer {
+    background: var(--cor-main);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: var(--cor-fonte);
+}
