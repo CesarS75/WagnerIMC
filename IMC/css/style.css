@@ -3,9 +3,9 @@
 /*Definir variáveis globais do CSS */
 
 :root {
-    --cor-fundo: rgb(29, 137, 183);
+    --cor-fundo: rgb(181, 181, 181);
     --cor-destaque: rgb(10 50 45);
-    --cor-main: rgb(26 200 235);
+    --cor-main: rgb(97, 116, 135);
     --cor-fonte: rgb(240, 240, 240);
 }
 
@@ -79,4 +79,16 @@ footer {
     width: 100%;
     text-align: center;
     color: var(--cor-fonte);
+}
+
+.sim {
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.nao {
+    padding: 10px;
+    background-color: red;
+    color: white;
 }
